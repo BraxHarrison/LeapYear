@@ -38,7 +38,7 @@ public class LeapYearCalculatorTest {
         Assert.assertFalse(result);
     }
     @Test
-    public void testneg200sLeapYear(){
+    public void testneg200IsLeapYear(){
         boolean result = leapYear.isLeapYear(-200);
         Assert.assertFalse(result);
     }
